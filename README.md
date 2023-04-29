@@ -1,2 +1,2 @@
 # c_learn
-¡¶C Primer Plus¡·¿ÎºóÁ·Ï°Ìâ´úÂë¡£
+ã€ŠC Primer Plusã€‹è¯¾åç»ƒä¹ é¢˜ä»£ç ã€‚
