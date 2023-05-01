@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    float height;   //声明变量（用浮点数的形式可以让用户输入小数
+    float height;   //声明变量（用浮点数的形式可以让用户输入小数)
 
     printf("Please input your height using inches as the unit.\n");
     scanf("%f", &height);   //用户输入身高
