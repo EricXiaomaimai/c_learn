@@ -10,7 +10,16 @@ int main(void)
     scanf("%s", name);
     printf("What's your height(unit:inch)\?");
     scanf("%f", &height);
-    printf("%s, you are %.3f feet tall", name, height/INCH_FOOT);
+    
+    float foot_height = height / INCH_FOOT;
+    if (foot_height - 1.0 < 1e-6)
+    {
+        printf("%s, you are 1 foot tall", name);
+    }
+    else
+    {
+        printf("%s, you are %.3f feet tall", name, foot_height);
+    }
 
     return 0;
 }
